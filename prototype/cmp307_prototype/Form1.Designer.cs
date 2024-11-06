@@ -44,6 +44,7 @@
       label7 = new Label();
       label9 = new Label();
       purchaseDate = new DateTimePicker();
+      label8 = new Label();
       SuspendLayout();
       // 
       // button1
@@ -215,11 +216,23 @@
       purchaseDate.Value = new DateTime(2024, 11, 5, 0, 0, 0, 0);
       purchaseDate.ValueChanged += purchaseDate_ValueChanged;
       // 
+      // label8
+      // 
+      label8.AutoSize = true;
+      label8.Font = new Font("Poppins Medium", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+      label8.ForeColor = SystemColors.ActiveCaptionText;
+      label8.Location = new Point(64, 409);
+      label8.Name = "label8";
+      label8.Size = new Size(135, 23);
+      label8.TabIndex = 19;
+      label8.Text = "* Required Fields";
+      // 
       // Form1
       // 
       AutoScaleDimensions = new SizeF(7F, 15F);
       AutoScaleMode = AutoScaleMode.Font;
       ClientSize = new Size(800, 450);
+      Controls.Add(label8);
       Controls.Add(purchaseDate);
       Controls.Add(noteTxt);
       Controls.Add(typeTxt);
@@ -249,7 +262,6 @@
 
     private Button button1;
     private Label label1;
-    private TextBox devNameTxt;
     private TextBox modelTxt;
     private TextBox manuTxt;
     private TextBox ipTxt;
@@ -263,5 +275,7 @@
     private Label label7;
     private Label label9;
     private DateTimePicker purchaseDate;
+    public TextBox devNameTxt;
+    private Label label8;
   }
 }

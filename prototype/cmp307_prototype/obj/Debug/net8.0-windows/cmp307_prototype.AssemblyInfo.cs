@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cmp307_prototype")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c23fe763b5986d3129dbb7fd6d88bddee8480b71")]
 [assembly: System.Reflection.AssemblyProductAttribute("cmp307_prototype")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cmp307_prototype")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
